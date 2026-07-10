@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>印尼 App 分类 Agent</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">IndoApp Classifier Agent</p>
+        <h1>印尼 App 分类工具</h1>
+        <p class="subtitle">支持包名与描述联合分类，也支持仅凭包名做分类推测。</p>
+      </div>
+      <div class="hero-card">
+        <p>输出格式固定为完整分类路径，例如：</p>
+        <code>金融 (Finance) → 借贷 (Loan) → P2P借贷 (Peer-to-Peer Lending)</code>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <div class="panel-head">
+          <h2>单条测试</h2>
+          <p>可输入包名、描述，或两者同时输入。描述为空时会根据包名推测分类。</p>
+        </div>
+        <form id="single-form" class="stack">
+          <input id="single-package-name" type="text" placeholder="请输入包名，例如 com.example.app">
+          <textarea id="single-description" placeholder="请输入 app 描述，可留空"></textarea>
+          <button type="submit">开始分类</button>
+        </form>
+        <div class="result-box">
+          <div class="result-label">分类结果</div>
+          <div id="single-result" class="result-value">等待输入</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <h2>批量打标</h2>
+          <p>上传 Excel 或 CSV，默认自动识别描述列和包名列，也支持手动指定。</p>
+        </div>
+        <form id="batch-form" class="stack" enctype="multipart/form-data">
+          <input id="batch-file" name="file" type="file" accept=".xlsx,.xls,.csv" required>
+          <input id="column-name" name="column_name" type="text" placeholder="描述列名，可留空自动识别">
+          <input id="package-column-name" name="package_column_name" type="text" placeholder="包名列名，可留空自动识别">
+          <button type="submit">上传并开始打标</button>
+        </form>
+
+        <div id="batch-status" class="batch-status hidden">
+          <div class="status-row">
+            <span>任务状态</span>
+            <strong id="task-state">等待中</strong>
+          </div>
+          <div class="status-row">
+            <span>处理进度</span>
+            <strong id="task-progress-text">0%</strong>
+          </div>
+          <div class="progress-track">
+            <div id="task-progress-bar" class="progress-bar"></div>
+          </div>
+          <div class="status-row">
+            <span>已处理</span>
+            <strong id="task-count">0 / 0</strong>
+          </div>
+          <div class="status-row">
+            <span>识别描述列</span>
+            <strong id="task-column">-</strong>
+          </div>
+          <div class="status-row">
+            <span>识别包名列</span>
+            <strong id="task-package-column">-</strong>
+          </div>
+          <div class="status-row">
+            <span>文件列</span>
+            <strong id="task-columns">-</strong>
+          </div>
+          <div id="task-error" class="error-text"></div>
+          <a id="download-link" class="download-link hidden" href="#">导出结果</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

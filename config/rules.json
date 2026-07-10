@@ -1,0 +1,335 @@
+{
+  "fallback_category": "其他 (Others)",
+  "rules": [
+    {
+      "path": "欺诈 (Fraud) → 赌博 (Gambling)",
+      "priority": 0,
+      "keywords": ["online casino", "casino online", "slot gacor", "slot online", "mesin slot", "judi online", "judi slot", "casino games", "jackpot casino", "roulette", "blackjack", "poker online", "bandar slot", "situs judi", "jackpot harian", "spin slot"]
+    },
+    {
+      "path": "欺诈 (Fraud) → 博彩 (Betting)",
+      "priority": 1,
+      "keywords": ["sports betting", "sportsbook", "betting odds", "live betting", "taruhan bola", "judi bola", "parlay", "bet now", "bookmaker", "wager", "odds taruhan", "pasang taruhan", "betting app", "togel", "prediksi skor", "live odds"]
+    },
+    {
+      "path": "欺诈 (Fraud) → 刷单返利 (Task/Rebate Scam)",
+      "priority": 2,
+      "keywords": ["task commission", "complete tasks", "grab order", "order grabbing", "order task", "recharge to withdraw", "top up to withdraw", "cashback task", "bonus task", "task reward", "rebate task", "佣金任务", "刷单返利", "做任务赚钱", "垫付任务", "充值返利", "完成任务提现", "抢单", "接单返利", "komisi tugas", "misi harian", "kerja paruh waktu online", "admin fee before disbursement", "processing fee before loan", "verification fee before loan", "pay admin fee first", "loan approved after payment", "unlock loan limit", "upgrade member to borrow", "loan disbursement after deposit", "pinjaman cair setelah bayar", "dana cair setelah deposit", "biaya admin di awal", "biaya verifikasi sebelum pencairan", "biaya pencairan pinjaman", "bayar dulu baru cair", "aktifkan limit pinjaman", "pinjaman tanpa slip gaji cair setelah bayar", "approval guaranteed after fee", "earn usdt", "deposit usdt", "deposit trx", "充值usdt", "cloud mining", "crypto mining", "mining rewards", "hashrate", "mining machine", "robot trading crypto", "passive income crypto", "crypto investment plan", "wallet mining", "usdt yield", "trx investment", "token mining", "investment bot crypto", "fixed daily returns", "guaranteed profit", "稳赚", "稳赚不赔", "high daily returns", "profit every day", "vip income", "harian profit", "komisi harian", "daily bonus", "principal guaranteed", "high return investment", "static income", "被动收入", "稳定收益", "每日分红", "拉人返佣", "invite friends earn", "投资返利", "高收益理财", "vip level income"]
+    },
+    {
+      "path": "金融 (Finance) → 借贷 (Loan) → P2P借贷 (Peer-to-Peer Lending)",
+      "priority": 1,
+      "keywords": ["p2p lending", "peer to peer lending", "pinjaman p2p", "pendanaan bersama", "marketplace lending", "pinjaman online resmi", "modalku", "investree", "amartha", "akseleran", "lender", "borrower"]
+    },
+    {
+      "path": "金融 (Finance) → 借贷 (Loan) → 小额现金贷 (Microloan / Cash Loan)",
+      "priority": 2,
+      "keywords": ["cash loan", "microloan", "pinjaman tunai", "pinjaman dana tunai", "quick cash", "same day loan", "instant loan", "pinjaman cepat", "kredit tunai", "loan cash", "pinjol", "adakami", "kredit pintar", "easycash", "julo", "tunaikita"]
+    },
+    {
+      "path": "金融 (Finance) → 借贷 (Loan) → 分期消费贷款 (Installment / Buy Now Pay Later)",
+      "priority": 3,
+      "keywords": ["buy now pay later", "bnpl", "cicilan", "paylater", "installment", "angsuran", "split payment", "shopping credit", "spaylater", "gopaylater", "akulaku", "kredivo", "atome"]
+    },
+    {
+      "path": "金融 (Finance) → 借贷 (Loan) → 企业/商户贷款（Business Loan / SME Loan）",
+      "priority": 4,
+      "keywords": ["business loan", "sme loan", "merchant cash advance", "modal usaha", "pinjaman usaha", "working capital", "invoice financing", "merchant financing", "pinjaman modal usaha", "modal bisnis", "dana usaha"]
+    },
+    {
+      "path": "金融 (Finance) → 借贷 (Loan) → 抵押贷 (Secured Loan / Collateral Loan)",
+      "priority": 5,
+      "keywords": ["secured loan", "collateral loan", "loan against collateral", "pinjaman jaminan", "pinjaman dengan jaminan", "jaminan bpkb", "bpkb mobil", "bpkb motor", "jaminan sertifikat rumah", "sertifikat rumah", "gadai emas", "gadai bpkb", "gadai sertifikat", "loan against property", "property collateral", "vehicle title loan", "agunan", "jaminan kendaraan", "pinjaman agunan"]
+    },
+    {
+      "path": "金融 (Finance) → 电子钱包 (E-wallet)",
+      "priority": 5,
+      "keywords": ["e-wallet", "ewallet", "dompet digital", "wallet balance", "saldo", "top up", "scan qr", "qris", "dompet elektronik", "dompet uang digital", "gopay", "ovo", "dana", "linkaja", "shopeepay"]
+    },
+    {
+      "path": "金融 (Finance) → 支付 (Payment)",
+      "priority": 6,
+      "keywords": ["payment gateway", "bill payment", "pembayaran", "pay bills", "accept payments", "merchant payment", "payment service", "invoice payment", "payment aggregator", "xendit", "midtrans", "duitku", "tagihan", "bayar tagihan"]
+    },
+    {
+      "path": "金融 (Finance) → 银行 (Banking)",
+      "priority": 7,
+      "keywords": ["bank account", "mobile banking", "internet banking", "digital bank", "tabungan", "rekening", "transfer bank", "banking", "m banking", "bca mobile", "livin by mandiri", "brimo", "mybca", "jenius", "bank jago", "seabank"]
+    },
+    {
+      "path": "金融 (Finance) → 股票 (Stocks)",
+      "priority": 8,
+      "keywords": ["stock trading", "stocks", "saham", "brokerage", "equity trading", "stock market", "securities account", "stockbit", "ajaib", "ipot", "bibit saham"]
+    },
+    {
+      "path": "金融 (Finance) → 加密货币 (Cryptocurrency)",
+      "priority": 9,
+      "keywords": ["crypto", "cryptocurrency", "bitcoin", "ethereum", "token trading", "web3 wallet", "digital asset exchange", "blockchain wallet", "indodax", "pintu", "tokocrypto", "triv"]
+    },
+    {
+      "path": "金融 (Finance) → 投资 (Investment)",
+      "priority": 10,
+      "keywords": ["investment", "investasi", "mutual fund", "reksa dana", "portfolio", "invest", "asset allocation", "bibit", "pluang", "bareksa"]
+    },
+    {
+      "path": "金融 (Finance) → 理财 (Wealth Management)",
+      "priority": 11,
+      "keywords": ["wealth management", "financial planning", "robo advisor", "goal planning", "savings plan", "personal finance manager", "perencana keuangan", "atur keuangan"]
+    },
+    {
+      "path": "金融 (Finance) → 保险 (Insurance)",
+      "priority": 12,
+      "keywords": ["insurance", "asuransi", "policy", "claim insurance", "health protection", "klaim asuransi", "premi asuransi", "polis"]
+    },
+    {
+      "path": "消费 (Consumption) → 外卖 (Food Delivery)",
+      "priority": 13,
+      "keywords": ["food delivery", "delivery makanan", "food order", "restaurant delivery", "order food", "meal delivery", "gofood", "grabfood", "shopeefood", "pesan makanan", "pesan antar makanan"]
+    },
+    {
+      "path": "消费 (Consumption) → 超市 (Supermarket)",
+      "priority": 14,
+      "keywords": ["grocery delivery", "supermarket", "groceries", "daily needs", "belanja harian", "fresh produce", "sayur", "buah", "sembako", "astro", "happyfresh"]
+    },
+    {
+      "path": "消费 (Consumption) → 团购 (Group Buying)",
+      "priority": 15,
+      "keywords": ["group buying", "community buying", "bulk order", "patungan belanja", "group deals"]
+    },
+    {
+      "path": "消费 (Consumption) → 二手交易 (Second-hand Trade)",
+      "priority": 16,
+      "keywords": ["second hand", "used goods", "preloved", "barang bekas", "resale marketplace", "thrift"]
+    },
+    {
+      "path": "消费 (Consumption) → 品牌官网 (Brand Official)",
+      "priority": 17,
+      "keywords": ["official store", "brand official", "official brand app", "loyalty rewards", "membership brand", "official brand store", "member rewards"]
+    },
+    {
+      "path": "消费 (Consumption) → 电商 (E-commerce)",
+      "priority": 18,
+      "keywords": ["e-commerce", "marketplace", "online shopping", "shop online", "jualan online", "beli online", "shopping app", "tokopedia", "shopee", "bukalapak", "blibli", "lazada"]
+    },
+    {
+      "path": "游戏 (Games) → 角色扮演 (RPG)",
+      "priority": 19,
+      "keywords": ["rpg", "role playing", "mmorpg", "jrpg", "character class"]
+    },
+    {
+      "path": "游戏 (Games) → 动作 (Action)",
+      "priority": 20,
+      "keywords": ["action game", "combat", "shooter", "battle", "fighting game", "hack and slash"]
+    },
+    {
+      "path": "游戏 (Games) → 冒险 (Adventure)",
+      "priority": 21,
+      "keywords": ["adventure game", "story quest", "exploration", "narrative adventure"]
+    },
+    {
+      "path": "游戏 (Games) → 策略 (Strategy)",
+      "priority": 22,
+      "keywords": ["strategy game", "tower defense", "war strategy", "build empire", "tactical battle"]
+    },
+    {
+      "path": "游戏 (Games) → 竞技 (Competitive)",
+      "priority": 23,
+      "keywords": ["moba", "esports", "competitive game", "ranked match", "multiplayer arena"]
+    },
+    {
+      "path": "游戏 (Games) → 棋牌 (Board/Card)",
+      "priority": 24,
+      "keywords": ["board game", "card game", "chess", "poker", "mahjong", "solitaire"]
+    },
+    {
+      "path": "游戏 (Games) → 休闲 (Casual)",
+      "priority": 25,
+      "keywords": ["casual game", "puzzle game", "match 3", "hypercasual", "arcade game"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 短视频 (Short Video)",
+      "priority": 26,
+      "keywords": ["short video", "short videos", "video clips", "watch clips", "creator clips"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 直播 (Live Streaming)",
+      "priority": 27,
+      "keywords": ["live streaming", "go live", "live stream", "watch live", "live host"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 视频 (Video)",
+      "priority": 28,
+      "keywords": ["video streaming", "watch movies", "watch series", "on demand video", "stream video"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 音乐 (Music)",
+      "priority": 29,
+      "keywords": ["music streaming", "listen music", "music", "songs", "playlist", "playlists", "album", "albums", "artist", "artists", "lyrics", "podcast", "audio streaming", "live performances", "remixes", "spotify", "joox", "langit musik"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 漫画 (Comics)",
+      "priority": 30,
+      "keywords": ["comics", "webtoon", "manga", "comic reader"]
+    },
+    {
+      "path": "娱乐 (Entertainment) → 阅读 (Reading)",
+      "priority": 31,
+      "keywords": ["ebook", "novel", "book reader", "reading app", "digital library"]
+    },
+    {
+      "path": "工具 (Tools) → VPN",
+      "priority": 32,
+      "keywords": ["vpn", "private network", "secure tunnel", "proxy vpn"]
+    },
+    {
+      "path": "工具 (Tools) → 浏览器 (Browser)",
+      "priority": 33,
+      "keywords": ["browser", "web browser", "search browser", "internet browser"]
+    },
+    {
+      "path": "工具 (Tools) → 输入法 (Input Method)",
+      "priority": 34,
+      "keywords": ["keyboard app", "input method", "ime", "typing keyboard", "emoji keyboard"]
+    },
+    {
+      "path": "工具 (Tools) → 安全 (Security)",
+      "priority": 35,
+      "keywords": ["antivirus", "security app", "privacy protection", "app lock", "phone security"]
+    },
+    {
+      "path": "工具 (Tools) → 清理 (Cleaning)",
+      "priority": 36,
+      "keywords": ["clean junk", "phone cleaner", "boost storage", "cache cleaner", "ram booster"]
+    },
+    {
+      "path": "工具 (Tools) → 办公 (Office)",
+      "priority": 37,
+      "keywords": ["document editor", "office suite", "spreadsheet", "presentation", "pdf editor", "productivity"]
+    },
+    {
+      "path": "工具 (Tools) → 系统工具 (System Tools)",
+      "priority": 38,
+      "keywords": ["file manager", "device utility", "system tool", "scanner tool", "qr scanner", "launcher"]
+    },
+    {
+      "path": "出行 (Travel) → 打车 (Ride-hailing)",
+      "priority": 39,
+      "keywords": ["ride hailing", "book a ride", "taxi app", "motorbike taxi", "car ride", "ojek", "gojek", "grab", "maxim", "indrive", "pesan kendaraan"]
+    },
+    {
+      "path": "出行 (Travel) → 地图导航 (Maps/Navigation)",
+      "priority": 40,
+      "keywords": ["maps", "navigation", "gps", "route planner", "directions", "map app", "waze"]
+    },
+    {
+      "path": "出行 (Travel) → 公共交通 (Public Transport)",
+      "priority": 41,
+      "keywords": ["public transport", "bus schedule", "train ticket", "metro", "commuter line", "transit", "kai access", "krl", "transjakarta", "mrt jakarta", "lrt"]
+    },
+    {
+      "path": "出行 (Travel) → 租车 (Car Rental)",
+      "priority": 42,
+      "keywords": ["car rental", "rent a car", "vehicle rental", "sewa mobil", "rental mobil"]
+    },
+    {
+      "path": "出行 (Travel) → 机票酒店 (Flights/Hotels)",
+      "priority": 43,
+      "keywords": ["flight booking", "hotel booking", "travel booking", "book hotels", "cheap flights", "travel deals", "traveloka", "tiket.com", "pegipegi", "pesan hotel", "pesan tiket pesawat"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 医疗健康 (Health/Medical)",
+      "priority": 44,
+      "keywords": ["healthcare", "doctor consultation", "telemedicine", "medical appointment", "pharmacy", "hospital", "halodoc", "alodokter", "konsultasi dokter", "tebus obat"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 房产 (Real Estate)",
+      "priority": 45,
+      "keywords": ["property listing", "real estate", "house rent", "buy house", "apartment listing", "rumah123", "mamikos"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 求职招聘 (Jobs)",
+      "priority": 46,
+      "keywords": ["job search", "recruitment", "career app", "hiring", "lowongan kerja", "jobstreet", "glints", "kalibrr"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 家政服务 (Home Services)",
+      "priority": 47,
+      "keywords": ["home cleaning service", "handyman", "beauty at home", "service booking", "household service"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 快递 (Courier)",
+      "priority": 48,
+      "keywords": ["courier", "parcel delivery", "shipment tracking", "send package", "logistics app", "jne", "j&t", "sicepat", "anteraja"]
+    },
+    {
+      "path": "生活服务 (Life Services) → 票务 (Ticketing)",
+      "priority": 49,
+      "keywords": ["ticket booking", "event tickets", "cinema ticket", "concert ticket"]
+    },
+    {
+      "path": "社交 (Social) → 即时通讯 (IM)",
+      "priority": 50,
+      "keywords": ["chat app", "messaging", "instant message", "group chat", "voice message", "whatsapp", "telegram", "line"]
+    },
+    {
+      "path": "社交 (Social) → 约会 (Dating)",
+      "priority": 51,
+      "keywords": ["dating app", "match singles", "find partner", "romance chat"]
+    },
+    {
+      "path": "社交 (Social) → 社区 (Community)",
+      "priority": 52,
+      "keywords": ["forum", "discussion community", "interest group", "community app"]
+    },
+    {
+      "path": "社交 (Social) → 社交网络 (Social Network)",
+      "priority": 53,
+      "keywords": ["social network", "share moments", "followers", "posts and stories", "connect friends"]
+    },
+    {
+      "path": "教育 (Education) → 语言学习 (Language Learning)",
+      "priority": 54,
+      "keywords": ["learn english", "language learning", "vocabulary", "grammar lessons", "speak english", "cakap", "belajar bahasa"]
+    },
+    {
+      "path": "教育 (Education) → K12",
+      "priority": 55,
+      "keywords": ["school learning", "math practice", "science lessons", "homework help", "students and teachers", "ruangguru", "zenius", "quipper", "siswa", "guru", "belajar"]
+    },
+    {
+      "path": "教育 (Education) → 职业教育 (Vocational)",
+      "priority": 56,
+      "keywords": ["professional certification", "job skills", "upskilling", "career training", "skill academy", "prakerja"]
+    },
+    {
+      "path": "教育 (Education) → 早教 (Early Education)",
+      "priority": 57,
+      "keywords": ["kids learning", "preschool", "toddlers", "early education", "anak", "balita"]
+    },
+    {
+      "path": "教育 (Education) → 在线课程 (Online Courses)",
+      "priority": 58,
+      "keywords": ["online course", "online courses", "video lessons", "learn anywhere", "course marketplace", "classroom online", "online learning", "kelas online", "belajar online", "kursus online"]
+    },
+    {
+      "path": "资讯 (Information) → 财经资讯 (Financial News)",
+      "priority": 59,
+      "keywords": ["market news", "stock news", "financial news", "crypto news", "investment insights"]
+    },
+    {
+      "path": "资讯 (Information) → 体育 (Sports)",
+      "priority": 60,
+      "keywords": ["sports news", "live score", "match results", "football scores", "sports updates"]
+    },
+    {
+      "path": "资讯 (Information) → 天气 (Weather)",
+      "priority": 61,
+      "keywords": ["weather forecast", "rain radar", "temperature", "air quality", "climate updates"]
+    },
+    {
+      "path": "资讯 (Information) → 新闻 (News)",
+      "priority": 62,
+      "keywords": ["breaking news", "latest news", "headline", "daily news", "news portal"]
+    }
+  ]
+}
